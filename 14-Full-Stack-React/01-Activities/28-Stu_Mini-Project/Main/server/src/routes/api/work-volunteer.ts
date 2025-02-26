@@ -1,8 +1,8 @@
 import express from 'express';
 import type { Request, Response } from 'express';
-import { Volunteer, Work } from '../../models/work.js';
+import { Volunteer, Work } from '../../models/index.js';
 
- const router = express.Router();
+const router = express.Router();
 
 //  GET /works - Get all Works
 router.get('/', async (_req: Request, res: Response) => {
@@ -22,7 +22,7 @@ router.get('/', async (_req: Request, res: Response) => {
       message: error.message
     });
   }
-};
+});
 
 // GET /works/:id - Get work by ID
 router.get('/:id', async (req: Request, res: Response) => {
@@ -37,7 +37,7 @@ router.get('/:id', async (req: Request, res: Response) => {
         },
       ],
     });
-    if(work) {
+    if (work) {
       res.json(work);
     } else {
       res.status(404).json({
@@ -72,7 +72,7 @@ router.put('/:id', async (req: Request, res: Response) => {
   const { name, status, description, assignedVolunteerId } = req.body;
   try {
     const work = await Work.findByPk(id);
-    if(work) {
+    if (work) {
       work.name = name;
       work.status = status;
       work.description = description;
@@ -96,7 +96,7 @@ router.delete('/:id', async (req: Request, res: Response) => {
   const { id } = req.params;
   try {
     const work = await Work.findByPk(id);
-    if(work) {
+    if (work) {
       await work.destroy();
       res.json({ message: 'Work deleted' });
     } else {

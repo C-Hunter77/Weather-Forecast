@@ -1,8 +1,8 @@
 import { Reader, LibraryCard, Book, Author } from '../models/index.js';
 
-import readerSeedData from './readerSeedData.json' assert { type: 'json' };
-import authorSeedData from './authorSeedData.json' assert { type: 'json' };
-import bookSeedData from './bookSeedData.json' assert { type: 'json' };
+import readerSeedData from './readerSeedData.json' with { type: 'json' };
+import authorSeedData from './authorSeedData.json' with { type: 'json' };
+import bookSeedData from './bookSeedData.json' with { type: 'json' };
 
 export const seedDatabase = async () => {
   await Author.bulkCreate(authorSeedData, {
