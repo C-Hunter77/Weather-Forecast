@@ -1,0 +1,17 @@
+{
+  "name": "26-stu_advanced-inquirer",
+  "version": "1.0.0",
+  "description": "Work with a partner to implement the following user story:",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquiry": "^0.0.3"
+  }
+}

@@ -1,8 +1,9 @@
 // fs is a Node standard library package for reading and writing files
+import { log } from 'console';
 import fs from 'fs';
 
 // TODO: Complete the `writeToLog` function such that it will take in data and use it to write to a file called `log.txt`.
-const writeToLog = () => {};
+const writeToLog = (message) => fs.writeFile('log.txt', message, err => err ? console.error(err) : console.log('Log Created'));
 
 // the `addFunc` function will add two values that are passed in
 const addFunc = (x, y) => {

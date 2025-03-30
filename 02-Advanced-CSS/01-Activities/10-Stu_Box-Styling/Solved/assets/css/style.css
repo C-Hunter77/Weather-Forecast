@@ -69,7 +69,7 @@ footer {
   border-radius: 50px;
   padding: 10px;
   flex: 0 0 300px;
-  transform: rotate(8deg);
+  transform: rotate(90deg);
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
 }

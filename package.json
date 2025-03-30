@@ -1,0 +1,16 @@
+{
+  "name": "fsf-pt-west-november-110424",
+  "version": "1.0.0",
+  "description": "Welcome to the Software Development Boot Camp! This curriculum is broken down into three phases, with a group project at the end of each phase. Let's delve into what each phase covers and what students will create during the project weeks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {}
+}
