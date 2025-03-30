@@ -4,7 +4,7 @@ Welcome to the Software Development Boot Camp! This curriculum is broken down in
 
 ## What to Expect in Phase 1 
 
-The first part of the course focuses on the front end&mdash;the words, images, and forms you see and interact with in the browser. Students will learn about HTML, CSS, JavaScript, and browser APIs.
+The first part of the course focuses on the front end—HTML, CSS, JavaScript, and browser APIs.
 
 ## Project 1
 
@@ -27,3 +27,9 @@ In the final phase of the course, students will learn how to make their applicat
 Students will develop a complex full-stack single-page application with a project team, using either the MERN (MongoDB, Express.js, React, Node.js) stack or replacing Node.js and Express.js with a Python back end.
 
 © 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+---
+
+# Weather-Forecast
+
+Challenge 9
